@@ -1,68 +1,45 @@
-# Clone do ChatGPT
+<h1 align="center">
+  <span><img alt="CLONE GPT" src="./.github/bot.svg" height="50px" /></span> &nbsp;
+  CLONE GPT
+</h1>
 
-Já considerou a possibilidade de desenvolver o seu próprio chatbot? A inteligência artificial está conquistando cada vez mais espaço, e com a API da OpenAI, você tem a oportunidade de criar o seu próprio ChatGPT. Com a capacidade de gerar textos de maneira natural, o seu chatbot estará pronto para conversar com você.
+<p align="center">
+  <a href="#bookmark-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#paintbrush-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://clone-gpt-openai.vercel.app/" target="_blank">Aplicação na Vercel</a>
+</p>
 
-## 🤓 Antes de começar
+<p align="center">
+  <img alt="design do projeto" width="650px" src="./.github/mockup.png" />
+<p>
 
-Esse Mini Projeto contém um boilerplate inicial, ou seja, algumas partes do código já estão prontas para que você possoa focar nas tecnologias principais.
+## :bookmark: Sobre
 
-Caso você prefira começar do zero, não tem problema, basta utilizar outra *branch* ou apagar os arquivos.
+O **Clone GPT** é uma aplicação desenvolvida em Next JS utilizando a API da OpenAI para gerar textos de maneira natural. O intuito é que o usuário possa conversar com o bot, fazendo perguntas e recebendo respostas.
 
-Caso você utilize o boilerplate, atente-se à estrutura do código.
+Para executar a aplicação, realize os passos a seguir:
 
-## 🔨 Requisitos
+* Clone o repositório ou realize um fork para o seu GitHub.
+* Entre no diretório do projeto --> `cd clone-gpt`.
+* Instale as dependências do projeto --> `npm install`.
+* Execute a aplicação --> `npm run dev`.
 
-- Utilize o Next JS + TypeScript + Tailwind CSS.
-- Utilize a API da OpenAI para gerar os textos.
+## :rocket: Tecnologias
 
-	> 👀 **Dicas:**
-	> - Utilize as rotas de API do Next JS para fazer as requisições para a OpenAI.
-	> - Tire as suas dúvidas na documentação da [OpenAI](https://www.npmjs.com/package/openai).
+  - `Next JS`
+  > Framework React que utiliza o conceito de SSR (Server Side Rendering) para renderizar as páginas do lado do servidor.
+  - `TypeScript`
+  > Linguagem de programação que adiciona tipagem estática ao JavaScript.
+  - `Tailwind CSS`
+  > Framework CSS que utiliza a metodologia CSS-in-JS.
+  - `OpenAI`
+  > API que utiliza inteligência artificial para gerar textos de maneira natural.
+  - `Vercel`
+  > Plataforma de hospedagem voltada para aplicações web modernas e escaláveis.
 
-- Crie um guia inicial de como o usuário pode obter a sua chave de acesso da OpenAI.
-- Seu app deve ter um campo de texto para o usuário digitar a sua chave.
-- Seu app deve ter um campo de texto para o usuário digitar a sua pergunta.
+## :paintbrush: Layout
 
-	> 👀 **Dicas:**
-	> - Busque reaproveitar componentes.
-	> - Fique a vontade para utilizar qualquer gerenciador de estado.
+🔗 [Link do design](https://www.figma.com/file/Tm195oJmb0NebY58EAxDFH/Clone-ChatGPT?type=design&node-id=8-914&mode=design&t=XtJtHUG320oTtgel-0)
 
-- Seu app deve ter um botão para enviar a pergunta para a OpenAI.
-- Crie componentes para renderizar as perguntas do Usuário e respostas do Bot.
-- Crie um loading para indicar que a resposta do Bot está sendo processada.
-
-## 🔨 Desafio extra para quem quer ir além
-
-- Crie um menu lateral para armazenar diferentes conversas.
-- Crie uma lógica para que seja possível navegar entre as conversas.
-- Crie uma lógica para que seja possível excluir uma conversa.
-- Utilize o localStorage para carregar a sua lista de conversas ao abrir a aplicação.
-
-## 💻 Setup do projeto
-
-O projeto com o design inicial já estará disponível para você na branch principal do repositório. Sua responsabilidade será apenas de implementar a lógica de acordo com o passo a passo acima.
-
-## 🔍 Dicas
-
-- Estude sobre componentização, estados e passagem de Props.
-- Estude sobre renderização condicional de componentes.
-- Estude sobre tipagem de dados com TypeScript.
-- Estude sobre Tailwind CSS e utilize com frequência a documentação.
-
-## 🎨 Design Sugerido
-
-Temos uma sugestão de design no Figma. Entretanto, fique à vontade para montar a aplicação conforme a sua criatividade.
-
-### Figma
-
-🔗 [Link do design]()
-
-## 👉🏽 Sobre esse mini-projeto
-
-### Tecnologias
-
-- **Tecnologias:**
-  - `Next JS`;
-  - `TypeScript`;
-  - `Tailwind CSS`;
-  - `OpenAI`;
+---
