@@ -1,6 +1,6 @@
 <h1 align="center">
-  <span><img alt="CLONE GPT" src="./.github/bot.svg" height="50px" /></span> &nbsp;
-  CLONE GPT
+	<p><img alt="CLONE GPT" src="./.github/bot.svg" height="100px" /></p>
+  <span>CLONE GPT</span>
 </h1>
 
 <p align="center">
