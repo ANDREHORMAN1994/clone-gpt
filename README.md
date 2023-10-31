@@ -40,6 +40,6 @@ Para executar a aplicação, realize os passos a seguir:
 
 ## :paintbrush: Layout
 
-🔗 [Link do design](https://www.figma.com/file/Tm195oJmb0NebY58EAxDFH/Clone-ChatGPT?type=design&node-id=8-914&mode=design&t=XtJtHUG320oTtgel-0)
+🔗 [Link do design](https://www.figma.com/file/Tm195oJmb0NebY58EAxDFH/Clone-ChatGPT?type=design&node-id=8%3A914&mode=dev)
 
 ---
