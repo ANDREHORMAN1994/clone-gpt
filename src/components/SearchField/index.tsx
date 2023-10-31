@@ -24,7 +24,7 @@ function SearchField({
     >
       <input
         className="p-5 lg:p-8 pr-12 lg:pr-16 w-full lg:w-[826px] h-[64px] rounded-lg bg-b-light border-2 border-t-border outline-none focus:border-t-light transition-all duration-300 ease-in-out text-t-light"
-        type="text"
+        type={showGuide ? 'password' : 'text'}
         placeholder={showGuide ? '🔑  Digite sua chave de API' : '😁  Digite um "Oi"'}
         value={showGuide ? keyAPI : message}
         onChange={(e) => {
