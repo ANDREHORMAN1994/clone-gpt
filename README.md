@@ -27,7 +27,7 @@ Para executar a aplicação, realize os passos a seguir:
 
 <br />
 <p align="center">
-  <img alt="preview do projeto" width="650px" src="./.github/pokedex-vanilla.gif" />
+  <img alt="preview do projeto" width="650px" src="./.github/clone-gpt.gif" />
 <p>
 
 ## :rocket: Tecnologias
