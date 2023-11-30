@@ -41,8 +41,8 @@ function Aside({
         </button>
       ) : (
         <div className="absolute top-0 left-0 z-50 lg:static w-[20rem] h-screen py-5 bg-b-dark flex flex-col justify-start gap-5">
-          <div className="w-full flex px-5 flex-row justify-center items-center">
-            <h1 className="w-full text-t-dark font-bold text-center">
+          <div className="w-full flex gap-2 px-5 flex-row justify-center items-center">
+            <h1 className="w-full py-[4px] text-t-dark text-[.8rem] font-bold text-center border-[.9px] rounded-[3px] border-[#4D4D4F]">
               Lista de Conversas
             </h1>
             <button

@@ -101,7 +101,7 @@ export default function Home(): ReactElement {
   }, []);
 
   return (
-    <main className="px-6 lg:px-0 py-16 lg:py-20 w-screen h-screen max-h-screen flex flex-row justify-between items-center">
+    <main className="px-6 lg:px-0 py-10 lg:py-10 w-screen h-screen max-h-screen flex flex-row justify-between items-center">
       {!showGuide && (
       <Aside
         chatList={chatList}

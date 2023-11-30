@@ -18,6 +18,12 @@
 	"plugins": [
 		"@typescript-eslint"
 	],
+	"ignorePatterns": [
+		"tailwind.config.ts",
+		"postcss.config.js",
+		"next.config.js",
+		"next-env.d.ts"
+	],
   "rules": {
     "react/jsx-props-no-spreading": "off",
     "react/react-in-jsx-scope": "off",
